@@ -37,7 +37,7 @@ app.listen(port, () => {
   console.log('\x1b[36m[ SERVER ]\x1b[0m', '\x1b[32m SH : http://localhost:' + port + ' ✅\x1b[0m');
 });
 
-const statusMessages = ["SC Shop | Cheapest Market", "Get the best deals at discord.gg/scshopp Today!"];
+const statusMessages = ["Echo Shop | Cheapest Nitro", "Purchase Nitro for under 3€ today!"];
 const statusTypes = [ 'dnd', 'idle'];
 let currentStatusIndex = 0;
 let currentTypeIndex = 0;
